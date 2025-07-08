@@ -9,7 +9,7 @@ import socket  # For hostname and IP address
 st.set_page_config(
     page_title="House Price Predictor",
     layout="wide",
-    initial_sidebar_state="collapsed"
+    initial_sidebar_state="collapsed" 
 )
 
 # Add title and description
