@@ -100,7 +100,7 @@ jobs:
       - name: Wait for MLflow to start
         run: |
           for i in {1..10}; do
-            curl -f http://localhost:5000/health || sleep 5;
+            curl -f http://localhost:5555/health || sleep 5;
           done
 
       - name: Train the Model
